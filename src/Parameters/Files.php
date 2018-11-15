@@ -7,6 +7,12 @@ use BlunderingNinja\Http\FileFactory;
 
 class Files extends Parameters
 {
+    /**
+     * Builds the class.
+     *
+     * @param array $parameters Usuall from $_FILE.
+     * @param BlunderingNinja\Http\FileFactory $factory
+     */
     public function __construct(array $parameters, FileFactory $factory)
     {
         
