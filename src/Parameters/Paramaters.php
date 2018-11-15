@@ -2,6 +2,9 @@
 
 namespace BlunderingNinja\Http\Parameters;
 
+/**
+ * This class contains and distributes the parameters with a request. Get, Post, Cookie, etc.
+ */
 class Parameters
 {
     /**

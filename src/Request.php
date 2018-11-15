@@ -68,7 +68,7 @@ class Request
     /**
      * Gets the cookies sent in the request.
      *
-     * @return BlunderingNinja\Http\Parameters\Parameters
+     * @return Parameters\Parameters
      */
     public function cookies() {
         return $this->cookies;
@@ -77,7 +77,7 @@ class Request
     /**
      * Gets the files sent in teh request.
      *
-     * @return BlunderingNinja\Http\Parameters\Files
+     * @return Parameters\Files
      */
     public function files() {
         return $this->files;
@@ -86,7 +86,7 @@ class Request
     /**
      * Gets the parameters sent via the GET method.
      *
-     * @return BlunderingNinja\Http\Parameters\Parameters
+     * @return Parameters\Parameters
      */
     public function get() {
         return $this->get;
@@ -95,7 +95,7 @@ class Request
     /**
      * Gets the parameters sent via the POST method.
      *
-     * @return BlunderingNinja\Http\Parameters\Parameters
+     * @return Parameters\Parameters
      */
     public function post() {
         return $this->post;
@@ -104,7 +104,7 @@ class Request
     /**
      * Gets the server and remote host parameters.
      *
-     * @return BlunderingNinja\Http\Parameters\ServerParameters
+     * @return Parameters\ServerParameters
      */
     public function server() {
         return $this->server;

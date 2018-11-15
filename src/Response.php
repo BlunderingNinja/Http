@@ -19,7 +19,7 @@ class Response
      *
      * @param string $key The name of the cookie.
      * @param string $value The value of the cookie
-     * @return BlunderingNinja\Http\Response
+     * @return Response
      */
     public function setCookie($key, $value)
     {
@@ -31,7 +31,7 @@ class Response
      * Sets a raw header.
      *
      * @param string $header A raw header string.
-     * @return BlunderingNinja\Http\Response
+     * @return Response
      */
     public function setHeader($header)
     {
@@ -43,7 +43,7 @@ class Response
      * Sets the http response code.
      *
      * @param int $code Http response code. 301 or 404 for example.
-     * @return BlunderingNinja\Http\Response
+     * @return Response
      */
     public function setResponceCode($code)
     {
@@ -56,7 +56,7 @@ class Response
      *
      * @param string $content The content that will be added to body attribute that will be returned to the client.
      * @param boolean $append Determines if we should append to or replace the current body attribute.
-     * @return BlunderingNinja\Http\Response
+     * @return Response
      */
     public function setBody($content, $append = true)
     {

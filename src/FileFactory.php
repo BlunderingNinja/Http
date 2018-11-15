@@ -13,7 +13,7 @@ class FileFactory
      * Return a file object representing an uploaded file.
      *
      * @param array $fileData An array of data representing the file, usually from $_FILE.
-     * @return BlunderingNinja\Http\File
+     * @return File
      */
     public function makeFile(array $fileData)
     {

@@ -4,6 +4,9 @@ namespace BlunderingNinja\Http\Parameters;
 
 use BlunderingNinja\Http\Parameters\Parameters;
 
+/**
+ * This class represents the parameters contained in the $_SERVER super global.
+ */
 class ServerParameters extends Parameters
 {
     /**

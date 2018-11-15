@@ -4,6 +4,9 @@ namespace BlunderingNinja\Http;
 
 use Exception;
 
+/**
+ * This class represents and uploaded file.
+ */
 class File
 {
     /**

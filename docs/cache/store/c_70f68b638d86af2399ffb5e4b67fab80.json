@@ -1,0 +1,369 @@
+{
+    "name": "BlunderingNinja\\Http\\Request",
+    "line": 13,
+    "short_desc": "Gathers and contains the http request.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "BlunderingNinja\\Http",
+    "file": "..\/src\\Request.php",
+    "relative_file": null,
+    "hash": "b4074bb8ee479184b23dd070ccc35d98a2004bc3",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Files": "BlunderingNinja\\Http\\Parameters\\Files",
+        "Parameters": "BlunderingNinja\\Http\\Parameters\\Parameters",
+        "ServerParameters": "BlunderingNinja\\Http\\Parameters\\ServerParameters"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "cookies": {
+            "name": "cookies",
+            "line": 20,
+            "short_desc": "The http cookies - $_COOKIE",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": []
+        },
+        "files": {
+            "name": "files",
+            "line": 27,
+            "short_desc": "The uploaded file(s) - $_FILE",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\BlunderingNinja\\Http\\Parameters\\Files",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": []
+        },
+        "get": {
+            "name": "get",
+            "line": 34,
+            "short_desc": "Get query - $_GET",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": []
+        },
+        "post": {
+            "name": "post",
+            "line": 41,
+            "short_desc": "The post request variables - $_POST",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": []
+        },
+        "server": {
+            "name": "server",
+            "line": 48,
+            "short_desc": "The server and remote host parameters - $_SERVER",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 59,
+            "short_desc": "Builds the class.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cookies": {
+                    "name": "cookies",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "Parameters",
+                            "Parameters"
+                        ],
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "files": {
+                    "name": "files",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\Parameters\\Files",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "Parameters",
+                            "Files"
+                        ],
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "get": {
+                    "name": "get",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "Parameters",
+                            "Parameters"
+                        ],
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "post": {
+                    "name": "post",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\Parameters\\Parameters",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "Parameters",
+                            "Parameters"
+                        ],
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "server": {
+                    "name": "server",
+                    "line": 59,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\Parameters\\ServerParameters",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "Parameters",
+                            "ServerParameters"
+                        ],
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "cookies": {
+            "name": "cookies",
+            "line": 73,
+            "short_desc": "Gets the cookies sent in the request.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Parameters\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "files": {
+            "name": "files",
+            "line": 82,
+            "short_desc": "Gets the files sent in teh request.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Parameters\\Parameters\\Files",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "get": {
+            "name": "get",
+            "line": 91,
+            "short_desc": "Gets the parameters sent via the GET method.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Parameters\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "post": {
+            "name": "post",
+            "line": 100,
+            "short_desc": "Gets the parameters sent via the POST method.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Parameters\\Parameters\\Parameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "server": {
+            "name": "server",
+            "line": 109,
+            "short_desc": "Gets the server and remote host parameters.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Parameters\\Parameters\\ServerParameters",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,87 @@
+{
+    "name": "BlunderingNinja\\Http\\Parameters\\Files",
+    "line": 11,
+    "short_desc": "A class to represent all the uploaded files to the server. Returns the file object as a parameter.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "BlunderingNinja\\Http\\Parameters",
+    "file": "..\/src\\Parameters\\Files.php",
+    "relative_file": null,
+    "hash": "ff04ec7e4fa986672b795911d6d8fd47e3dec08e",
+    "parent": "BlunderingNinja\\Http\\Parameters\\Parameters",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Parameters": "BlunderingNinja\\Http\\Parameters\\Parameters",
+        "FileFactory": "BlunderingNinja\\Http\\FileFactory"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 19,
+            "short_desc": "Builds the class.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parameters": {
+                    "name": "parameters",
+                    "line": 19,
+                    "short_desc": "$_GET, $_POST, or $_COOKIE typically.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "factory": {
+                    "name": "factory",
+                    "line": 19,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\BlunderingNinja\\Http\\FileFactory",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "BlunderingNinja",
+                            "Http",
+                            "FileFactory"
+                        ],
+                        "attributes": {
+                            "startLine": 19,
+                            "endLine": 19
+                        }
+                    },
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

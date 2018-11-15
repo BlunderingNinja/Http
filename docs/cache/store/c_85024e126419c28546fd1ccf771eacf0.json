@@ -1,0 +1,100 @@
+{
+    "name": "BlunderingNinja\\Http\\Parameters\\ServerParameters",
+    "line": 10,
+    "short_desc": "This class represents the parameters contained in the $_SERVER super global.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "BlunderingNinja\\Http\\Parameters",
+    "file": "..\/src\\Parameters\\ServerParameters.php",
+    "relative_file": null,
+    "hash": "0b94ddcb839dcd2e440366ea302ce24dbe046f4a",
+    "parent": "BlunderingNinja\\Http\\Parameters\\Parameters",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Parameters": "BlunderingNinja\\Http\\Parameters\\Parameters"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__get": {
+            "name": "__get",
+            "line": 19,
+            "short_desc": "Get the parameter by key. Key is the camel case version of the $_SERVER key.",
+            "long_desc": "For example, HTTP_USER_AGENT is accessed by httpUserAgent.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The value associatied with the parameter key.",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parameter": {
+                    "name": "parameter",
+                    "line": 19,
+                    "short_desc": "The name of the key.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "camelCaseToDashedCaps": {
+            "name": "camelCaseToDashedCaps",
+            "line": 37,
+            "short_desc": "Takes a camel case string and converts it to all caps with dashes.",
+            "long_desc": "For example: documentRoot becomes DOCUMENT_ROOT",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "string": {
+                    "name": "string",
+                    "line": 37,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "string",
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

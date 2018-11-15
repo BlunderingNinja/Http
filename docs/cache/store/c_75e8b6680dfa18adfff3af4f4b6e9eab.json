@@ -1,0 +1,63 @@
+{
+    "name": "BlunderingNinja\\Http\\FileFactory",
+    "line": 10,
+    "short_desc": "The purpose of this clase is to generate file objects.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "BlunderingNinja\\Http",
+    "file": "..\/src\\FileFactory.php",
+    "relative_file": null,
+    "hash": "a6f3f9af95152ba86f1c1b59e56f4172975f1164",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "File": "BlunderingNinja\\Http\\File"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "makeFile": {
+            "name": "makeFile",
+            "line": 18,
+            "short_desc": "Return a file object representing an uploaded file.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\File",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fileData": {
+                    "name": "fileData",
+                    "line": 18,
+                    "short_desc": "An array of data representing the file, usually from $_FILE.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

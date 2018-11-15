@@ -1,0 +1,305 @@
+{
+    "name": "BlunderingNinja\\Http\\Response",
+    "line": 8,
+    "short_desc": "Crafts and sends an http response to the client.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "BlunderingNinja\\Http",
+    "file": "..\/src\\Response.php",
+    "relative_file": null,
+    "hash": "517bedb311dbcac3fdd2eaf957706d25eb69c2fb",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "body": {
+            "name": "body",
+            "line": 15,
+            "short_desc": "The body of the response to be sent to the client\/browser.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "",
+                "attributes": {
+                    "startLine": 15,
+                    "endLine": 15,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "setCookie": {
+            "name": "setCookie",
+            "line": 24,
+            "short_desc": "Sets a cookie.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "key": {
+                    "name": "key",
+                    "line": 24,
+                    "short_desc": "The name of the cookie.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 24,
+                    "short_desc": "The value of the cookie",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setHeader": {
+            "name": "setHeader",
+            "line": 36,
+            "short_desc": "Sets a raw header.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "header": {
+                    "name": "header",
+                    "line": 36,
+                    "short_desc": "A raw header string.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setResponceCode": {
+            "name": "setResponceCode",
+            "line": 48,
+            "short_desc": "Sets the http response code.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "code": {
+                    "name": "code",
+                    "line": 48,
+                    "short_desc": "Http response code. 301 or 404 for example.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setBody": {
+            "name": "setBody",
+            "line": 61,
+            "short_desc": "Prepare the body that will be returned to the client.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\BlunderingNinja\\Http\\Response",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "content": {
+                    "name": "content",
+                    "line": 61,
+                    "short_desc": "The content that will be added to body attribute that will be returned to the client.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "append": {
+                    "name": "append",
+                    "line": 61,
+                    "short_desc": "Determines if we should append to or replace the current body attribute.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "returnResponse": {
+            "name": "returnResponse",
+            "line": 78,
+            "short_desc": "Returns\/echos the body to the client. Should be last thing called.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "redirect": {
+            "name": "redirect",
+            "line": 90,
+            "short_desc": "Redirect the client to a new location. Must be called before any other content\/white space is sent to client.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "location": {
+                    "name": "location",
+                    "line": 90,
+                    "short_desc": "URL to new location. For example, https:\/\/www.google.com",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                },
+                "responseCode": {
+                    "name": "responseCode",
+                    "line": 90,
+                    "short_desc": "Default is 302 which is temporary. Use 301 for permanent redirect.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "integer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "302",
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}
